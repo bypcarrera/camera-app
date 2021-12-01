@@ -5,11 +5,16 @@ html, body{
   width: 100%;
 }
 
-#camera, #camera--view, #camera--sensor, #camera--guide, #camera--output{
+#camera, #camera--view, #camera--sensor, #camera--output{
     position: fixed;
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+#camera--guide{
+	height: auto;
+    width: 100%;
 }
 
 #camera--view, #camera--sensor, #camera--output{
