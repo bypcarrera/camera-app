@@ -32,7 +32,7 @@ cameraTrigger.onclick = function() {
 };
 
 cameraOutput.onclick = function() {
-    cameraOutput.src = "//:0";
+    cameraOutput.src = "none.png";
     cameraOutput.classList.remove("taken");
 };
 
